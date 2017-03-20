@@ -25,7 +25,6 @@ rnk_file = args$rnk_file
 #category_file = args$category_file
 #length_file = args$length_file
 gmt_file = args$gmt_file
-gene_id = args$gene_id
 out_tab = args$out_tab
 min_size = args$min_size
 max_size = args$max_size
