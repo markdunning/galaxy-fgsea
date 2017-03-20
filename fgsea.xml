@@ -63,7 +63,7 @@
     </outputs>
     <tests>
         <test>
-            <param name="rnk_file" value="dge_list.tab" ftype="tabular"/>
+            <param name="rnk_file" value="testdata/t47d_Treatment_DEA_Prog-vs-Control_all_for_GSEA.rnk" ftype="tabular"/>
             <param name="gmt_file" value="h.all.v5.2.symbols.gmt"/>
         </test>
     </tests>

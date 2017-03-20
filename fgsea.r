@@ -38,9 +38,11 @@ gmt_file <-paste(path_to_gmt, gmt_file, sep="/")
 
 ###temp values for testing
 
-rnk_file <- "testdata/t47d_Treatment_DEA_Prog-vs-Control_all_for_GSEA.rnk"
-gmt_file <- "h.all.v5.2.symbols.gmt"
-
+#rnk_file <- "testdata/t47d_Treatment_DEA_Prog-vs-Control_all_for_GSEA.rnk"
+#gmt_file <- "h.all.v5.2.symbols.gmt"
+#min_size = 5
+#max_size = 500
+#n_perm=1000
 
 ## Basically using the steps from the fgsea vignette
 
