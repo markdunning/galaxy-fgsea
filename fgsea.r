@@ -9,8 +9,8 @@ suppressPackageStartupMessages({
 })
 
 option_list <- list(
-  make_option(c("-d", "--rnk_file"), type="character", help="Path to file with differential gene expression result"),
-  make_option(c("-w","--out_tab"), type="character", help="Path to output file."),
+  make_option(c("-rnk_file", "--rnk_file"), type="character", help="Path to file with differential gene expression result"),
+  make_option(c("-out_tab","--out_tab"), type="character", help="Path to output file."),
   make_option(c("-gmt_file", "--gmt_file"), default="h.all.v5.2.symbols.gmt", type="character", help = "Path to Broad gmt file"),
   make_option(c("-min_size", "--min_size"), default=1, help="Minimal size of a gene set to test. All pathways below the threshold are excluded."),
   make_option(c("-max_size", "--max_size"), default=500, help="Maximal size of a gene set to test. All pathways above the threshold are excluded."),
